@@ -20,7 +20,7 @@ public BinarySearch(int Key, int Arr[]) {
 ```
 
 ## 문제 접근방법
-배열 Arr 선언 이후 입력받은 Target 을 이용하여 이진탐색(BinarySearch)
+배열 Arr 선언 이후 입력받은 Target 을 이용하여 이진탐색(BinarySearch
 
 ### 소스코드
 ```
