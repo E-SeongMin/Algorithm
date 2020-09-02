@@ -6,7 +6,7 @@ https://www.acmicpc.net/problem/1920
 ```
 public BinarySearch(int Key, int Arr[]) {
 		int mid;
-		int left = 0;
+		int left = 0;ㅇㄹ
 		int right = Arr.length - 1;
 		
 		while(right >= left) {
