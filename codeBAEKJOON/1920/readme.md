@@ -6,7 +6,7 @@ https://www.acmicpc.net/problem/1920
 ```
 public BinarySearch(int Key, int Arr[]) {
 		int mid;
-		int left = 0;ㅇㄹ
+		int left = 0;
 		int right = Arr.length - 1;
 		
 		while(right >= left) {
@@ -20,7 +20,7 @@ public BinarySearch(int Key, int Arr[]) {
 ```
 
 ## 문제 접근방법
-배열 Arr 선언 이후 입력받은 Target 을 이용하여 이진탐색(BinarySearch
+배열 Arr 선언 이후 입력받은 Target 을 이용하여 이진탐색(BinarySearch)
 
 ### 소스코드
 ```
