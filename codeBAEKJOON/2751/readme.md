@@ -10,8 +10,6 @@ https://www.acmicpc.net/problem/2751
 따라서 시간복잡도가 가장 낮은 '퀵 정렬'을 사용
     -> 메모리 : 226,664kb / 시간 : 4284ms
 
-```
-```
 public static int [] Quick_Sort(int [] arr, int start, int end) {
 	int p = partition(arr, start, end);
 	if(start < p-1)
