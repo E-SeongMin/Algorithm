@@ -15,6 +15,8 @@ https://www.acmicpc.net/problem/2750
     -> 메모리 : 14,064kb / 시간 : 128ms
 4. BufferedReader + Array + Bubble_Sort
     -> 메모리 : 14,000kb / 시간 : 140ms
-5. BufferedReader + Array + Counting_Sort
+5. BufferedReader + Array + Quick_Sort
+    -> 메모리 : 13,968kb / 시간 : 120ms
+6. BufferedReader + Array + Counting_Sort
     -> 카운팅 정렬 이해 후 풀 예정
 ```
