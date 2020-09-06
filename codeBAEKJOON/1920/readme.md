@@ -5,18 +5,19 @@ https://www.acmicpc.net/problem/1920
 이분탐색(이진탐색)을 이용한 수 찾기
 ```
 public BinarySearch(int Key, int Arr[]) {
-		int mid;
-		int left = 0;
-		int right = Arr.length - 1;
+	int mid;
+	int left = 0;
+	int right = Arr.length - 1;
+	
+	while(right >= left) {
+		mid = (right + left) / 2;
 		
-		while(right >= left) {
-			mid = (right + left) / 2;
-			
-			if(Key < Arr[mid])
-				right = mid - 1;
-			else if(Key > Arr[mid])
-				left = mid + 1;
-        }
+		if(Key < Arr[mid])
+			right = mid - 1;
+		else if(Key > Arr[mid])
+			left = mid + 1;
+	}
+}
 ```
 
 ## 문제 접근방법
