@@ -23,8 +23,8 @@ Arrays.sort(word, new Comparator<String>() {
 		return Integer.compare(o1.length(), o2.length());
 	}
 });
-먼저 사전순으로 정렬 후 길이 순으로 정렬하면 길이 순이 1순위가 됨
 ```
+먼저 사전순으로 정렬 후 길이 순으로 정렬하면 길이 순이 1순위가 됨
 
 ## 소스코드
 ```
