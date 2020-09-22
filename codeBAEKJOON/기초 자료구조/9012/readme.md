@@ -74,7 +74,7 @@ public class Main {
     		  VPS = false;            // VPS 상태를 false 로
     	  
     	  if(VPS)
-			    bw.write("YES\n");
+			  bw.write("YES\n");
     	  else
     		  bw.write("NO\n");
       }
