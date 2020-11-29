@@ -19,7 +19,7 @@ public static int Euclidean(int a, int b) {
 int gcd = distance[n-2];
 for(int i=n-3; i>=0; i--)
 	gcd = Euclidean(gcd, distance[i]);
-``
+```
 그 후 가로수 전체의 거리를 해당 공약수로 나누면 총 가로수의 갯수가 나옴. 먼저 심어진 가로수 갯수를 빼면 됨.
 
 ## 소스코드
