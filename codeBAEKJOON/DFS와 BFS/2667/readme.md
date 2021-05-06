@@ -2,7 +2,7 @@
 https://www.acmicpc.net/problem/2667
 
 ## 목표
-DFS탐색으로 
+단지 번호 
 
 ## 문제 해결
 DFS나 BFS로 인접해있는 그룹의 갯수와 크기를 구하는 문제
